@@ -1,4 +1,23 @@
+body
+{
+     background-color: darksalmon;
+}
+
 h1
   {
        color:indianred;
   }
+
+  a 
+ {
+     text-decoration: none;
+     font-family: Impact;
+     padding: 10px;
+     font-size: 16pt;
+ }
+
+ a:hover
+ {
+     color:red;
+     font-size: 18pt;
+ }
