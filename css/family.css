@@ -1,0 +1,119 @@
+body
+{
+     background-color:#FFE4C4;
+}
+
+h1
+{
+    color: maroon;
+}
+
+  a 
+{
+     text-decoration:none;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     padding: 10px;
+     font-size: 16pt;
+}
+
+a:hover
+{
+     color: coral;
+     font-size: 18pt;
+}
+
+
+.header
+{
+    width: 100%;
+    background-color: darksalmon;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust this value as needed */
+  position:relative;
+  width: 100%;
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Make the image to responsive */
+.image {
+  display:block;
+  width: 200%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom:13%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 200%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+table, tr, td, th
+{
+    border: solid black;
+    border-collapse: collapse;
+}
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+td
+{
+    padding: 5px;
+}
+
+tr
+{
+    background-color: mintcream;
+}
+
+tr:nth-child(odd)
+{
+    background-color: mistyrose;
+}
+
+th
+{
+    background-color: black;
+    color: beige;
+}
+
+tr:hover
+{
+    background-color: lightcoral;
+}
+footer {
+  text-align: center;  padding: 2px;
+  background-color:#B0C4DE;  color: black;
+  font-size: 13px;}

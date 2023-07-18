@@ -1,0 +1,99 @@
+body
+{
+     background-color:#FFE4C4;
+}
+
+h1
+{
+    color: maroon;
+}
+
+  a 
+{
+     text-decoration:none;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     padding: 10px;
+     font-size: 16pt;
+}
+
+a:hover
+{
+     color: coral;
+     font-size: 18pt;
+}
+
+
+.header
+{
+    width: 100%;
+    background-color: darksalmon;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h2 {
+    font-size: 50px;
+    word-break: break-all;
+    color: maroon;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  footer {
+  text-align: center;  padding: 2px;
+  background-color:#B0C4DE;  color: black;
+  font-size: 13px;}

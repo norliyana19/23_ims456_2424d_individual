@@ -1,0 +1,139 @@
+body { 
+    background-color:#FFE4C4;
+}
+
+h1
+{
+    color: maroon;
+}
+
+  a 
+{
+     text-decoration:none;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     padding: 10px;
+     font-size: 16pt;
+}
+
+a:hover
+{
+     color: coral;
+     font-size: 18pt;
+}
+
+.header
+{
+    width: 100%;
+    background-color:darksalmon;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.slider
+{
+    width: 100%;
+    background-color: salmon;
+}
+
+.content
+{
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+}
+
+table, tr, td, th
+{
+    border: solid black;
+    border-collapse: collapse;
+}
+
+table
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+td
+{
+    padding: 5px;
+}
+
+tr
+{
+    background-color: mintcream;
+}
+
+tr:nth-child(odd)
+{
+    background-color: mistyrose;
+}
+
+th
+{
+    background-color: black;
+    color: beige;
+}
+
+tr:hover
+{
+    background-color: lightcoral;
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+    
+.container 
+{
+    max-width: 800px;
+    margin:auto;
+    padding: 20px;
+}
+    
+ h1 
+ {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: firebrick;
+}
+    
+h2 
+{
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+    
+p 
+{
+    line-height: 1.5;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: black;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;  padding: 2px;
+    background-color:#B0C4DE;  color: black;
+    font-size: 13px;}
+

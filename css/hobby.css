@@ -1,0 +1,67 @@
+body
+{
+     background-color:#FFE4C4;
+}
+
+h1
+{
+    color: maroon;
+}
+
+  a 
+{
+     text-decoration:none;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     padding: 10px;
+     font-size: 16pt;
+}
+
+a:hover
+{
+     color: coral;
+     font-size: 18pt;
+}
+
+
+.header
+{
+    width: 100%;
+    background-color: darksalmon;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+* {box-sizing: border-box}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+footer {
+  text-align: center;  padding: 2px;
+  background-color:#B0C4DE;  color: black;
+  font-size: 13px;}
